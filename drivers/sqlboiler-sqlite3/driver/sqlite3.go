@@ -587,7 +587,7 @@ func (SQLiteDriver) Imports() (col importers.Collection, err error) {
 			},
 			ThirdParty: importers.List{
 				`"github.com/volatiletech/strmangle"`,
-				`"github.com/volatiletech/sqlboiler/v4/drivers"`,
+				`"github.com/myron-meng/sqlboiler/v4/drivers"`,
 			},
 		},
 	}
@@ -671,14 +671,14 @@ func (SQLiteDriver) Imports() (col importers.Collection, err error) {
 			Standard: importers.List{`"time"`},
 		},
 		"types.Decimal": {
-			ThirdParty: importers.List{`"github.com/volatiletech/sqlboiler/v4/types"`},
+			ThirdParty: importers.List{`"github.com/myron-meng/sqlboiler/v4/types"`},
 		},
 		"types.NullDecimal": {
-			ThirdParty: importers.List{`"github.com/volatiletech/sqlboiler/v4/types"`},
+			ThirdParty: importers.List{`"github.com/myron-meng/sqlboiler/v4/types"`},
 		},
 
 		"types.JSON": {
-			ThirdParty: importers.List{`"github.com/volatiletech/sqlboiler/v4/types"`},
+			ThirdParty: importers.List{`"github.com/myron-meng/sqlboiler/v4/types"`},
 		},
 		"null.JSON": {
 			ThirdParty: importers.List{`"github.com/volatiletech/null/v8"`},

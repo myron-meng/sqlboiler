@@ -762,7 +762,7 @@ func (s *State) verifyModVersion() error {
 		return fmt.Errorf(
 			"\tsqlboiler version in go.mod (%s) does not match executable version (%s)."+
 				"\n\tYou can update it with:"+
-				"\n\tgo get github.com/volatiletech/sqlboiler/v4",
+				"\n\tgo get github.com/myron-meng/sqlboiler/v4",
 			string(match[0]),
 			s.Config.Version,
 		)
