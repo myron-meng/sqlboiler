@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/myron-meng/sqlboiler/v4/importers"
 	"github.com/volatiletech/strmangle"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/drivers/mocks"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/drivers/mocks"
 )
 
 var state *State

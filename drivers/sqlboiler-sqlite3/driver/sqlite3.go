@@ -11,8 +11,8 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/importers"
 )
 
 //go:embed override

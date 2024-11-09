@@ -13,8 +13,8 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/volatiletech/strmangle"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/importers"
 )
 
 //go:embed override
