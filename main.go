@@ -16,7 +16,7 @@ import (
 	"github.com/myron-meng/sqlboiler/v4/importers"
 )
 
-const sqlBoilerVersion = "4.16.3-alpha3"
+const sqlBoilerVersion = "4.16.3"
 
 var (
 	flagConfigFile string
