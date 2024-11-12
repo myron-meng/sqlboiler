@@ -17,6 +17,16 @@ func (o *{{$alias.UpSingular}}) PluralName() string {
     return "{{$alias.UpPlural}}"
 }
 
+// StructName returns the name of the struct type.
+func (o *{{$alias.UpSingular}}) StructName() string {
+    return "{{$alias.UpSingular}}"
+}
+
+// SliceTypeName returns the name of the slice type for this struct.
+func (o *{{$alias.UpSingular}}) SliceTypeName() string {
+    return "{{$alias.UpSingular}}Slice"
+}
+
 // IsNil returns true if the object is nil.
 func (o *{{$alias.UpSingular}}) IsNil() bool {
     return o == nil
