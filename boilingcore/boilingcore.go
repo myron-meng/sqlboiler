@@ -15,9 +15,9 @@ import (
 	"github.com/friendsofgo/errors"
 	"github.com/volatiletech/strmangle"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/importers"
-	boiltemplates "github.com/volatiletech/sqlboiler/v4/templates"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/importers"
+	boiltemplates "github.com/myron-meng/sqlboiler/v4/templates"
 )
 
 var (
@@ -749,7 +749,7 @@ func (s *State) verifyModVersion() error {
 		return fmt.Errorf(fmt.Sprintf("could not read go.mod: %v", err))
 	}
 
-	re, err := regexp.Compile(`github\.com\/volatiletech\/sqlboiler\/v4 v(\d*\.\d*\.\d*)`)
+	re, err := regexp.Compile(`github\.com\/myron-meng\/sqlboiler\/v4 v(\d*\.\d*\.\d*)`)
 	if err != nil {
 		return fmt.Errorf(fmt.Sprintf("failed to parse regexp: %v", err))
 	}
@@ -762,7 +762,7 @@ func (s *State) verifyModVersion() error {
 		return fmt.Errorf(
 			"\tsqlboiler version in go.mod (%s) does not match executable version (%s)."+
 				"\n\tYou can update it with:"+
-				"\n\tgo get github.com/volatiletech/sqlboiler/v4",
+				"\n\tgo get github.com/myron-meng/sqlboiler/v4",
 			string(match[0]),
 			s.Config.Version,
 		)

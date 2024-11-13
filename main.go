@@ -11,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/volatiletech/sqlboiler/v4/boilingcore"
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/myron-meng/sqlboiler/v4/boilingcore"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/importers"
 )
 
-const sqlBoilerVersion = "4.16.2"
+const sqlBoilerVersion = "4.16.3"
 
 var (
 	flagConfigFile string

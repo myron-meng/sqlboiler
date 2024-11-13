@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
 )
 
 func TestAliasesTables(t *testing.T) {

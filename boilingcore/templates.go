@@ -16,7 +16,7 @@ import (
 	"github.com/friendsofgo/errors"
 	"github.com/volatiletech/strmangle"
 
-	"github.com/volatiletech/sqlboiler/v4/drivers"
+	"github.com/myron-meng/sqlboiler/v4/drivers"
 )
 
 // templateData for sqlboiler templates
